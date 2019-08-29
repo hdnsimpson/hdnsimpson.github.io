@@ -29,6 +29,23 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
 
+/* Scrollbar */
+::-webkit-scrollbar {
+	width: 10px;
+  }
+  
+  ::-webkit-scrollbar-track {
+	background: #ffffff; 
+  }
+   
+  ::-webkit-scrollbar-thumb {
+	background: #817770; 
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+	background: #57504c; 
+  }
+
 body {
 	line-height: 1;
 }
