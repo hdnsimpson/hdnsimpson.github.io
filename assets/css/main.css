@@ -2572,6 +2572,17 @@ input, select, textarea {
 			margin: 0;
 		}
 
+/* Blinking text */
+#main blink_me {
+	animation: blinker 1s linear infinite;
+  }
+
+  @keyframes blinker {
+	50% {
+	  opacity: 0;
+	}
+  }
+
 /* Header */
 
 	#header {
