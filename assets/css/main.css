@@ -2632,6 +2632,7 @@ input, select, textarea {
 			-ms-flex-grow: 1;
 			flex-grow: 1;
 			margin: 0 0 2em 0;
+			padding-bottom: 2em;
 		}
 
 		#header strong, #header b {
@@ -2653,6 +2654,14 @@ input, select, textarea {
 			margin: 0 0 1em 0;
 			width: 6.25em;
 		}
+
+		#header .icons {
+			margin: 1em 0 0 0;
+		}
+	
+			#header .icons a {
+				color: rgba(255, 255, 255, 0.75);
+			}
 
 /* Footer */
 
@@ -3075,6 +3084,10 @@ input, select, textarea {
 				width: 100%;
 				display: block;
 			}
+
+				#header .icons {
+					margin: 0 0 1em 0;
+				}
 
 				#header h1 {
 					font-size: 1.75em;
