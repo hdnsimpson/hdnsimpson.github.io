@@ -2568,6 +2568,10 @@ input, select, textarea {
 			cursor: default;
 		}
 
+	.projDesc {
+		min-height: 8em;
+	}
+
 /* Work Item */
 
 	.work-item {
